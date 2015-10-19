@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+        background-color:#ccc;
+        color: black;
+        padding: .1em .5em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# cyptes
+
+using C code in python
+
+---
+
+# coming up
+
+1. a quick look at (time) complexity
+2. some goofy contrived python examples
+3. charts!
+4. C
+5. more charts!
+
+---
+
+class: center, middle
+
+# Big-O notation
+
+lots of good info on [wikipedia](https://en.wikipedia.org/wiki/Time_complexity)
+
+---
+
+# O(n^2)
+
+* aka: _quadtratic time_
+* Read: Big-O of n-squared.
+* As the input of your code grows, it takes longer-and longer to run.
+* an input of size `n` takes `n * n` steps to calculate.
+
+---
+
+# O(n)
+
+* aka: _linear time_
+* Read: Big-O of n.
+* As the input of your code grows, it's time grows lineraly
+* an input of size `n` takes `n` steps to calculate.
+
+---
+
+# O(log n)
+
+* aka: _logarithmic time_
+* Read: Big-O of log n.
+* As the input of your code grows, it's time grows lineraly
+* an input of size `n` takes `n` steps to calculate.
+* generally, this is pretty quick.
+
+---
+
+# O(1)
+
+* aka: _constant time_
+* Read: Constant Time
+* Your code runs the same speed no matter how large the input.
+* Fast as you can get.
+
+---
+
+class: center, middle
+
+# Clear as mud?
+
+Hang on, examples make more sense.
+
+---
+
+class: center, middle
+
+(this is all python 3)
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
