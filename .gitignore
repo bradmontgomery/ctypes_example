@@ -1,0 +1,8 @@
+__pycache__
+env/
+src/algorithms.o
+src/libalgo.1.dylib
+src/libalgo.a
+src/main_dynamic
+src/main_dynamic.dSYM/
+src/main_static
